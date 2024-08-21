@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+    
+        <div class="container">
+    
+            <img class="logo" src="imagenes/Logo.jpg" alt="img">
+    
+            <h2>Ingrese sus datos</h2>
+        <form class="asd" method="post" action="login.php">
+            <label class="titulo">Usuario</label>
+            <input class="ingreso" type="text" name="txtusuario"/>
+            <label class="titulo">Password</label>
+            <input class="ingreso" type="password" name="txtpassword"/>
+            <select class="tipo" name="tipousuario" required>
+                <option value="empleado">Empleado</option>
+                <option value="cliente">Cliente</option>
+            </select>
+            <input class="boton" type="submit" value="Logearme"/>
+        </form>
+        </div>
+
+    </body>
+</html>
